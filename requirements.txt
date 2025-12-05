@@ -1,4 +1,9 @@
 pandas
 numpy
 seaborn
--e .
+matplotlib
+scikit-learn
+catboost
+xgboost
+#-e .
+# whenever you run pip install req.txt cmd comment -e . becuase it builds package again and again so at end we will build the package
