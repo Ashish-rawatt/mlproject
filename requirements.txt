@@ -6,4 +6,5 @@ scikit-learn
 catboost
 xgboost
 #-e .
-# whenever you run pip install req.txt cmd comment -e . becuase it builds package again and again so at end we will build the package
+# whenever you run pip install req.txt cmd and you don't want to trigger setup.py
+# or you just want to install packages in req.txt so comment -e . 
